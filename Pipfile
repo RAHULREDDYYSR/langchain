@@ -12,6 +12,7 @@ requests = "*"
 langchain = "*"
 black = "*"
 langchain-ollama = "*"
+flask = "*"
 
 [dev-packages]
 

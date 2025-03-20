@@ -20,7 +20,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
         }
         response = requests.get(api_endpoint, params=params, timeout=10)
 
-
     data = response.json().get("person")
 
     data = {
