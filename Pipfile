@@ -13,6 +13,9 @@ langchain = "*"
 black = "*"
 langchain-ollama = "*"
 flask = "*"
+langchain-pinecone = "*"
+faiss-cpu = "*"
+pypdf = "*"
 
 [dev-packages]
 
